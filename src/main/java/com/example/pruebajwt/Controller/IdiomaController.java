@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author salguero
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://pruebaap-9858f.web.app")
 public class IdiomaController {
     @Autowired IIdiomaService idiomaServ;
     
