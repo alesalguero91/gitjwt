@@ -36,7 +36,7 @@ public class PersonaController {
     }
     
     
-    @PreAuthorize("hasRole('ADMIN')")
+    
     @PostMapping("/persona/crear")
     public void agregarPersona(@RequestBody Persona per){
         iPersonaService.crearPersona(per);
